@@ -30,8 +30,8 @@
 
 .banner {
     width: 100%;
-    background-image: url(../assets/cityimage.jpg);
-    height: 10em;
+    background-image: url(../assets/imgs/citybanner.jpg);
+    height: 15em;
     text-decoration: white;
     text-align: center;
     color: white;
@@ -42,7 +42,6 @@
     width: 70%;
     float: left;
     height: max-content;
-    border-style: solid;
     background-image: url(assets\imgs\homeimage.jpg);
 }
 
@@ -57,13 +56,9 @@
 
 footer {
     clear: both;
-    border-style: solid;
-    height: 250%;
+    height: 50%;
 }
-.contacts{
-  
-  
-}
+
 .column{
     float: left;
     width: 33.33%;
@@ -92,13 +87,12 @@ footer {
     margin: auto;
     text-align: left;
     padding-top: 50px;
+    float: left;
 }
 
 .contacts{
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    
+    float: right;
+    margin: auto;
 
 }
 @media only screen and (min-width: 768px) {
@@ -116,3 +110,5 @@ footer {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
+  /*for smartphones*/
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
