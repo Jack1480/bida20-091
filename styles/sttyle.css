@@ -84,7 +84,6 @@ footer {
 
 .mayor{
     width:80%;
-    margin: auto;
     text-align: left;
     padding-top: 50px;
     float: left;
@@ -92,7 +91,7 @@ footer {
 
 .contacts{
     float: right;
-    margin: auto;
+    width: 20%;
 
 }
 @media only screen and (min-width: 768px) {
